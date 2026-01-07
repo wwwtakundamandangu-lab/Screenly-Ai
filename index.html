@@ -1,51 +1,65 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Screenly AI | Automated Tenant Screening</title>
+    <title>Screenly AI | Smart Tenant Screening</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>body { font-family: 'Inter', sans-serif; }</style>
 </head>
-<body class="bg-slate-50 font-sans">
+<body class="bg-slate-50 text-slate-900">
 
-    <nav class="p-6 flex justify-between items-center bg-white shadow-sm">
-        <div class="text-2xl font-bold text-blue-600">Screenly<span class="text-slate-800">AI</span></div>
-        <button class="bg-blue-600 text-white px-6 py-2 rounded-lg font-semibold">Get Started</button>
+    <nav class="max-w-7xl mx-auto p-6 flex justify-between items-center bg-white/80 backdrop-blur-md sticky top-0 z-50">
+        <div class="text-2xl font-bold text-blue-600">ScreenlyAI</div>
+        <div class="space-x-6 hidden md:flex items-center">
+            <a href="pricing" class="text-slate-600 hover:text-blue-600 font-medium">Pricing</a>
+            <button class="bg-blue-600 text-white px-6 py-2 rounded-xl font-bold hover:bg-blue-700 transition">Get Started</button>
+        </div>
     </nav>
 
     <header class="max-w-6xl mx-auto py-20 px-6 text-center">
-        <h1 class="text-5xl md:text-6xl font-extrabold text-slate-900 mb-6">
+        <h1 class="text-5xl md:text-7xl font-bold tracking-tight mb-6">
             Stop wasting hours on <span class="text-blue-600">bad leads.</span>
         </h1>
         <p class="text-xl text-slate-600 mb-10 max-w-2xl mx-auto">
-            Our AI interviews, qualifies, and schedules your rental property leads 24/7. You only talk to the best applicants.
+            Our AI interviews, qualifies, and schedules your rental leads 24/7. You only talk to the best applicants.
         </p>
         <div class="flex flex-col md:flex-row justify-center gap-4">
-            <input type="email" placeholder="Enter your email" class="px-6 py-4 border rounded-xl w-full md:w-80 shadow-sm focus:ring-2 focus:ring-blue-500 outline-none">
-            <button class="bg-slate-900 text-white px-10 py-4 rounded-xl font-bold hover:bg-slate-800 transition">Build My Screener</button>
+            <button class="bg-blue-600 text-white text-lg px-8 py-4 rounded-2xl font-bold hover:shadow-lg hover:shadow-blue-200 transition">
+                Start Screening Now
+            </button>
+            <a href="pricing" class="bg-white text-slate-900 text-lg px-8 py-4 rounded-2xl font-bold border border-slate-200 hover:bg-slate-50 transition">
+                View Plans →
+            </a>
         </div>
     </header>
 
-    <section class="bg-white py-20 px-6">
-        <div class="max-w-6xl mx-auto grid md:grid-cols-3 gap-12">
-            <div class="p-8 border rounded-2xl bg-slate-50">
-                <div class="text-3xl mb-4 text-blue-600">💬</div>
-                <h3 class="text-xl font-bold mb-2">AI Conversations</h3>
-                <p class="text-slate-600">Natural chat that feels human but follows your strict screening rules.</p>
+    <section class="bg-white py-24 px-6 border-y border-slate-100">
+        <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-12">
+            <div class="p-4">
+                <div class="text-3xl mb-4">🤖</div>
+                <h3 class="text-xl font-bold mb-2">Autonomous Interviews</h3>
+                <p class="text-slate-600 leading-relaxed">AI handles the initial Q&A so you don't have to answer the same questions 100 times.</p>
             </div>
-            <div class="p-8 border rounded-2xl bg-slate-50">
-                <div class="text-3xl mb-4 text-blue-600">📊</div>
-                <h3 class="text-xl font-bold mb-2">Lead Scoring</h3>
-                <p class="text-slate-600">Instantly rank leads based on income, credit, and rental history.</p>
+            <div class="p-4">
+                <div class="text-3xl mb-4">⚖️</div>
+                <h3 class="text-xl font-bold mb-2">Inclusive Screening</h3>
+                <p class="text-slate-600 leading-relaxed">We verify income for everyone—from $20/week budgets to $10k/month professionals.</p>
             </div>
-            <div class="p-8 border rounded-2xl bg-slate-50">
-                <div class="text-3xl mb-4 text-blue-600">📅</div>
+            <div class="p-4">
+                <div class="text-3xl mb-4">📅</div>
                 <h3 class="text-xl font-bold mb-2">Auto-Scheduling</h3>
-                <p class="text-slate-600">Syncs with your calendar to book viewings for qualified leads only.</p>
+                <p class="text-slate-600 leading-relaxed">Qualified leads can book viewings directly onto your calendar in seconds.</p>
             </div>
         </div>
     </section>
-<script src='https://cdn.jotfor.ms/agent/embedjs/019b9756363a7e0c94c126de5df4b1dbf9da/embed.js'>
-</script>
+
+    <footer class="py-12 text-center text-slate-400 text-sm">
+        <p>© 2026 Screenly AI. All rights reserved. Professional Tenant Screening Redefined.</p>
+    </footer>
+
+    <script src="https://cdn.jotfor.ms/agent/019b9756363a7e0c94c126de5df4b1dbf9da/en"></script>
 </body>
 </html>
